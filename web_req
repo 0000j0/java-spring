@@ -1,0 +1,5 @@
+
+h=http://localhost:8888
+
+curl ${h}/re-str/999/qqq
+

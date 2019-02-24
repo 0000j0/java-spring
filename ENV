@@ -1,0 +1,11 @@
+
+
+CR=/share/home/java/contrib
+
+export MAVEN_HOME=${CR}/maven/latest
+export GRADLE_USER_HOME=${PWD}/.gradle
+export GRADLE_HOME=${CR}/gradle/latest
+export JAVA_HOME=${CR}/jdk/latest
+
+export PATH=${JAVA_HOME}/bin:${GRADLE_HOME}/bin:${MAVEN_HOME}/bin:${PATH}
+
